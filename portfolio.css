@@ -1,0 +1,599 @@
+.div1
+{
+    border: 0px solid black;
+    width: 100%;
+    height: 640px;
+    background-image: url("has.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    /* top: -4px; */
+
+}
+.div2
+{
+    width: 1335px;
+    border: 0px solid black;
+    height: 60px;
+    background-color: rgb(71, 107, 106);
+    padding-top: 20px;
+    position: fixed;
+    top: 0px;
+ 
+}
+.name
+{
+    margin-left: 30px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bar1
+{
+    padding-left: 550px;
+    color: rgb(91, 143, 39);
+}
+.bar1 a 
+{
+    color: white;
+}
+.bar1 li
+{
+    position: relative;
+    display: inline;
+    margin-left: 60px;  
+    top: -30px;
+    font-size: 20px;
+    color: white;
+}
+.bar1 li:hover
+{
+    color: chartreuse;
+}
+.bar1 a:hover
+{
+    color: chartreuse;
+}
+.welcome
+{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+.welcome1
+{
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 255, 42), 0 0 5px darkblue;
+    
+}
+.me 
+{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 255, 85), 0 0 5px rgb(0, 139, 19);
+    animation: me 0.9s infinite alternate-reverse;
+}
+@keyframes me 
+{
+    100%{letter-spacing: 5px;}
+}
+.mouse
+{
+    width: 40px;
+    height: 60px;
+    border: 3px solid white;
+    margin-left: 645px;
+    margin-top: 200px;
+    border-radius: 22px;
+    position: relative;
+}  
+.dot
+{
+    margin-top: 7px;
+    color: rgb(14, 15, 17);
+    margin-left: 14px;
+    font-size: 50px;
+    animation: dot 0.8s infinite alternate-reverse;
+}
+@keyframes dot
+{
+    100%{transform: translateY(-40px); opacity: 0;}
+}
+.pp
+{
+    width: 1330px;
+    height: 1160px;
+    border: 0px solid black;
+    position: relative;
+    
+}
+.aboutme
+{
+    margin-top: 60px;
+    margin-left: 565px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: maroon;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    display: flex;
+
+}
+.text
+{
+    width: 600px;
+    border: 1px solid black;
+    height: 470px;
+    margin-left: 40px;
+    margin-top: 50px;
+    background-color: rgba(20, 16, 16, 0.781);
+}
+.hey
+{
+    font-size: 30px;
+    color: white;
+    margin-top: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.para1
+{
+        color: white;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+}
+.pic
+{
+    border: 1px solid black;
+    width: 600px;
+    height: 470px;
+    margin-left: 700px;
+    margin-top: -472px;
+    background-image: url("10.jpg");
+    background-size: cover;
+}
+.skills
+{
+    width: 500px;
+    height: 420px;
+    margin-left: 40px;
+    margin-top: 80px;
+    border: 0px solid black;
+}
+.para2
+{
+    /* text-align: center; */
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line
+{
+    position: relative;
+    width: 140px;
+    height: 8px;
+    margin-left: 100px;
+    margin-top: -17px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.li
+{
+    margin-left: 150px;
+    color: black;
+    margin-top: 20px;
+    font-size: 35px;
+    animation: li 0.8s infinite alternate-reverse;
+
+}
+@keyframes li
+{
+    100%{transform: translateY(30px);}
+}
+.para3
+{
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sk1
+{
+    margin-left: 10px;
+    width: 300px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: -10px;
+}
+.bg1
+{
+    border: 1px solid black;
+    width: 270px;
+    background-color: red;
+    border-radius: 6px;
+    height: 9px;
+}
+.para4
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sk2
+{
+    margin-left: 10px;
+    width: 300px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: -10px;
+}
+.bg2
+{
+    border: 1px solid black;
+    width: 250px;
+    background-color: green;
+    border-radius: 6px;
+    height: 9px;
+}
+.para5
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sk3
+{
+    margin-left: 10px;
+    width: 300px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: -10px;
+}
+.bg3
+{
+    border: 1px solid black;
+    width: 240px;
+    background-color: green;
+    border-radius: 6px;
+    height: 9px;
+}
+.para6
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sk4
+{
+    margin-left: 10px;
+    width: 300px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: -10px;
+}
+.bg4
+{
+    border: 1px solid black;
+    width: 270px;
+    background-color: red;
+    border-radius: 6px;
+    height: 9px;
+}
+.para7
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sk5
+{
+    margin-left: 10px;
+    width: 300px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: -10px;
+}
+.bg5
+{
+    border: 1px solid black;
+    width: 200px;
+    background-color: blue;
+    border-radius: 6px;
+    height: 9px;
+}
+.para8
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sk6
+{
+    margin-left: 10px;
+    width: 300px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: -10px;
+}
+.bg6
+{
+    border: 1px solid black;
+    width: 200px;
+    background-color: blue;
+    border-radius: 6px;
+    height: 9px;
+}
+.portfolio
+{
+    width: 500px;
+    height: 450px;
+    border: 1px solid green;
+    margin-left: 750px;
+    margin-top: -400px;
+    background-image: url("71.jpg");
+    background-size: cover;
+}
+.did
+{
+    width: 500px;
+    height: 100px;
+    margin-top: 350px;
+    border: 0px solid black;
+    background-color: rgba(0, 0, 0, 0.664);
+    opacity: 0;
+}
+.age
+{
+    font-size: 15px;
+    padding-top: 20px;
+    color: white;
+}
+.portfolio:hover .did
+{
+    opacity: 1;
+}
+.services
+{
+    width: 1330px;
+    height: 690px;
+    border: 0px solid black;
+    margin-top: 10px;
+}
+.serv
+{
+    font-size: 30px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.webdes
+{
+    width: 600px;
+    height: 540px;
+    background-image: url("12.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top:70px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.733);
+   
+    position: relative;
+}
+.taxa
+{
+    width: 600px;
+    height: 540px;
+    background-color: rgba(0, 0, 0, 0.692);
+    opacity: 0;
+}
+.tax
+{
+    font-size: 20px;
+    margin-left: 80px;
+    
+    padding-top: 230px;
+     color: white;
+
+
+}
+
+ .webdes:hover .taxa
+{
+    opacity: 3;
+
+}
+.webdev
+{
+    width: 650px;
+    height: 470px;
+    background-image: url("web.jpg");
+    border: 1px solid black;
+    background-size: cover;
+    margin-left: 650px;
+    margin-top: -500px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.767);
+    position: relative;
+}
+.dev
+{
+    width: 650px;
+    height: 470px;
+    background-color: rgba(0, 0, 0, 0.74);
+    opacity: 0;
+    position: relative;
+    margin-top: -25px;
+}
+.devel
+{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    padding-top: 150px;
+    color: white;
+
+}
+.webdev:hover .dev
+{
+    opacity: 1;
+}
+
+.contact
+{
+    font-size: 30px;
+    margin-left: 550px;
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: aqua;
+     
+}
+
+.box
+{
+    width: 500px;
+    height: 380px;
+    margin-left: 440px;
+    margin-top: 70px;
+    border: 0px solid black;
+    position: relative;
+  
+  }
+.names
+{
+    width: 400px;
+    height: 30px;
+    
+    border: 1px solid chartreuse;
+    
+}
+.emails
+{
+    /* margin-top: 10px; */
+    width: 400px;
+    height: 30px;
+    border: 1px solid chartreuse;
+}
+.messages
+{
+    /* margin-top: 20px; */
+     width: 400px;
+    height: 80px;
+    color: black;
+    border: 1px solid chartreuse;
+
+}
+.send
+{
+    margin-left: 180px;
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.404);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bgimage
+{
+    width: 1330px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 30px;
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.phone
+{
+    font-size: 35px;
+    margin-top: 60px;
+    text-shadow: 1px 1px black;
+    color: white;
+    margin-left: 300px;
+}
+.adress
+{
+    font-size: 35px;
+    margin-top: 60px;
+    text-shadow: 1px 1px black;
+    color: white;
+    margin-left: 300px;
+}
+.mail
+{
+    font-size: 35px;
+    margin-top: 60px;
+    text-shadow: 1px 1px black;
+    color: white;
+    margin-left: 300px;
+}
+.phone1
+{
+    font-size: 35px;
+    margin-left: 280px;
+    margin-top: 60px;
+    text-shadow: 1px 1px black;
+    color: white;
+    
+}
+.address1
+{
+    font-size: 35px;
+    margin-left: 600px;
+    margin-top: -73px;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+.mail1
+{
+    font-size: 35px;
+    margin-left: 960px;
+    margin-top: -75px;
+    text-shadow: 1px 1px black;
+    color: white; 
+}
+.no
+{
+    font-size: 20px;
+    margin-left: 250px;
+    text-shadow: 1px 1px black;
+    color: white; 
+}
+.add
+{
+    font-size: 20px;
+    margin-left: 530px;
+    margin-top: -45px;
+    text-shadow: 1px 1px black;
+    color: white; 
+}
+.mal
+{
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: -45px;
+    text-shadow: 1px 1px black;
+    color: white; 
+}
