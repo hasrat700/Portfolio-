@@ -1,0 +1,74 @@
+
+@media (max-width: 768px) {
+  .div2 {
+    width: 100%;
+    padding: 10px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bar1 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .bar1 li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .pp {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text, .pic {
+    width: 90%;
+    margin: 10px auto;
+    float: none;
+    height: auto;
+  }
+
+  .skills {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .portfolio {
+    width: 90%;
+    margin: 20px auto;
+    height: auto;
+  }
+
+  .webdes, .webdev {
+    width: 90%;
+    margin: 20px auto;
+    float: none;
+  }
+
+  .box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .bgimage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .phone, .adress, .mail,
+  .phone1, .address1, .mail1,
+  .no, .add, .mal {
+    margin: 5px 0;
+    text-align: center;
+  }
+}
